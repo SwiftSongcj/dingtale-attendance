@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  forward-headers-strategy: FRAMEWORK
+app:
+  app_key: *
+  app_secret: *
+  corp_id: *
+  agent_id: *
+  aes_token: *
+  aes_key: *
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: *
